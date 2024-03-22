@@ -1,0 +1,39 @@
+---
+title: "Regression Notes"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Albert Hershman 
+    url: http://www.hamilton.edu
+    affiliation: Hamilton College 
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web. 
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+
+
+```{r, layout="l-body-outset", fig.width=6, fig.height=1.5}
+library(ggplot2)
+ggplot(diamonds, aes(carat, price)) + geom_smooth() +
+  facet_grid(~ cut)
+```
+
+$$
+\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
+$$
+
+<aside>
+```{r}
+ggplot(mtcars, aes(hp, mpg)) + geom_point() + geom_smooth()
+```
+</aside>
+

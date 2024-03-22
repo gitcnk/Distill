@@ -1,0 +1,35 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-03-21T20:32:08-04:00"
+    },
+    {
+      "path": "code0.html",
+      "title": "Regression Notes",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Albert Hershman",
+          "url": "http://www.hamilton.edu"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n\\[\n\\sigma = \\sqrt{ \\frac{1}{N} \\sum_{i=1}^N (x_i -\\mu)^2}\n\\]\n\n\n\n\n\n\n",
+      "last_modified": "2024-03-21T20:32:26-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Regression_Notes",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-03-21T20:32:29-04:00"
+    }
+  ],
+  "collections": []
+}

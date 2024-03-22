@@ -1,0 +1,12 @@
+name: "Distill"
+title: "Regression_Notes"
+description: |
+  Regression_Notes
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
